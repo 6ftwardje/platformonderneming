@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Custom Onboarding Academy | Platform Onderneming</title>
+    <meta
+      name="description"
+      content="Maak nieuwe medewerkers sneller zelfstandig met een branded onboarding academy, video, examens, checklists en een AI-mentor op basis van jullie eigen kennis."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Hoofdnavigatie">
+      <a class="brand" href="#top" aria-label="Platform Onderneming home">
+        <span class="brand-mark">PO</span>
+        <span>Platform Onderneming</span>
+      </a>
+      <nav class="nav-links" aria-label="Pagina">
+        <a href="#probleem">Probleem</a>
+        <a href="#kosten">Calculator</a>
+        <a href="#proces">Proces</a>
+        <a href="#scan">Scan</a>
+      </nav>
+      <a class="header-cta" href="#scan">Vraag scan aan</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <aside class="hero-pill reveal">
+            <span>Van interne kennis naar zelfstandige medewerkers.</span>
+            <a href="#proof-title">
+              <span>Bekijk bewijs</span>
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+          </aside>
+          <p class="eyebrow reveal">Custom Onboarding Academy</p>
+          <h1 id="hero-title" class="reveal">Maak nieuwe medewerkers sneller zelfstandig.</h1>
+          <p class="hero-copy reveal">
+            Wij filmen jullie interne kennis, bouwen er een onboarding academy rond en voegen
+            een AI-mentor toe die medewerkers begeleidt tot ze operationeel klaar zijn.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button primary" href="#scan">
+              <span>Vraag een onboarding scan aan</span>
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="button ghost" href="#proces">
+              <i data-lucide="play-circle" aria-hidden="true"></i>
+              <span>Bekijk hoe het werkt</span>
+            </a>
+          </div>
+          <p class="trust-line reveal">
+            Gebouwd op ervaring met platformen zoals Het Trade Platform en CoachedBy Academy.
+          </p>
+        </div>
+        <div class="hero-screenshots reveal" aria-label="Actuele screenshots van bestaande leerplatformen">
+          <div class="screenshot-shell screenshot-shell-main">
+            <div class="screenshot-label">
+              <span>Het Trade Platform</span>
+              <strong>Live leeromgeving</strong>
+            </div>
+            <img
+              src="assets/platforms/htp2-current.png"
+              alt="Screenshot van Het Trade Platform loginomgeving"
+              loading="eager"
+            />
+          </div>
+          <div class="screenshot-shell screenshot-shell-secondary">
+            <div class="screenshot-label">
+              <span>CoachedBy Academy</span>
+              <strong>Bestaande academy</strong>
+            </div>
+            <img
+              src="assets/platforms/coachedby-current.png"
+              alt="Screenshot van CoachedBy Academy loginomgeving"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="probleem" class="section problem-section">
+        <div class="section-kicker reveal">Waarom onboarding stokt</div>
+        <div class="split-layout">
+          <div class="section-copy reveal">
+            <h2>Onboarding breekt vaak niet door slechte mensen, maar door slechte kennisoverdracht.</h2>
+            <p>
+              Nieuwe medewerkers krijgen uitleg tijdens drukke shifts, leren van verschillende
+              collega's en vinden belangrijke info terug in losse documenten. Daardoor duurt het
+              langer voor iemand zelfstandig meedraait en blijven managers dezelfde vragen beantwoorden.
+            </p>
+          </div>
+          <div class="problem-list reveal" aria-label="Veelvoorkomende onboardingproblemen">
+            <div>
+              <span>01</span>
+              <p>Training verschilt per locatie of trainer.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>Nieuwe medewerkers vergeten wat mondeling werd uitgelegd.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>Managers verliezen uren aan dezelfde herhaling.</p>
+            </div>
+            <div>
+              <span>04</span>
+              <p>Er is weinig zicht op wie echt klaar is.</p>
+            </div>
+            <div>
+              <span>05</span>
+              <p>Standaarden worden pas duidelijk nadat er fouten gebeuren.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kosten" class="section cost-section" aria-labelledby="cost-title">
+        <div class="cost-grid">
+          <div class="section-copy reveal">
+            <div class="section-kicker">Verborgen kost</div>
+            <h2 id="cost-title">Elke nieuwe medewerker kost meer dan alleen loon.</h2>
+            <p>
+              De verborgen kost zit in managerstijd, fouten, trage ramp-up, inconsistente kwaliteit
+              en medewerkers die afhaken voordat ze goed ingewerkt zijn.
+            </p>
+            <p class="callout">
+              Als je elke maand nieuwe mensen opleidt, betaal je kennisoverdracht telkens opnieuw
+              tenzij je ze omzet naar een systeem.
+            </p>
+          </div>
+
+          <form class="calculator reveal" aria-label="Onboardingkost calculator">
+            <div class="calculator-head">
+              <span>Onboardingkost per maand</span>
+              <strong id="monthly-cost">EUR 3.600</strong>
+            </div>
+            <label>
+              <span>Nieuwe medewerkers per maand</span>
+              <input id="new-hires" type="range" min="1" max="60" value="10" />
+              <output for="new-hires" id="new-hires-value">10</output>
+            </label>
+            <label>
+              <span>Manageruren per medewerker</span>
+              <input id="training-hours" type="range" min="1" max="30" value="6" />
+              <output for="training-hours" id="training-hours-value">6 uur</output>
+            </label>
+            <label>
+              <span>Interne kost per manageruur</span>
+              <input id="hour-cost" type="range" min="25" max="120" step="5" value="60" />
+              <output for="hour-cost" id="hour-cost-value">EUR 60</output>
+            </label>
+            <div class="calculator-foot">
+              <p><strong id="monthly-hours">60</strong> manageruren per maand aan herhaling.</p>
+              <a href="#scan">Bereken wat onboarding jullie vandaag kost</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section solution-section" aria-labelledby="solution-title">
+        <div class="solution-copy reveal">
+          <div class="section-kicker">De oplossing</div>
+          <h2 id="solution-title">Van losse uitleg naar een schaalbaar trainingssysteem.</h2>
+          <p>
+            We zetten jullie kennis om in een branded academy met video, examens, checklists,
+            progress tracking en een AI-mentor. Zo krijgt elke medewerker dezelfde basis en ziet
+            management wie klaar is voor de praktijk.
+          </p>
+        </div>
+
+        <div class="platform-showcase reveal" aria-label="Voorbeelden van platformweergaven">
+          <div class="screen-tabs" role="tablist" aria-label="Platformvoorbeeld">
+            <button class="screen-tab active" type="button" data-screen="learner" role="tab" aria-selected="true">
+              Medewerker
+            </button>
+            <button class="screen-tab" type="button" data-screen="admin" role="tab" aria-selected="false">
+              Manager
+            </button>
+            <button class="screen-tab" type="button" data-screen="mentor" role="tab" aria-selected="false">
+              AI-mentor
+            </button>
+          </div>
+
+          <div class="platform-screen active" data-panel="learner">
+            <div class="screen-top">
+              <span>Module 03</span>
+              <strong>Spitsmomenten aan de balie</strong>
+            </div>
+            <div class="video-frame">
+              <img
+                src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1200&q=80"
+                alt="Manager begeleidt medewerkers tijdens een training"
+              />
+              <button type="button" aria-label="Video afspelen">
+                <i data-lucide="play" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="lesson-list">
+              <span class="done">Opening en standaardbegroeting</span>
+              <span class="done">Veelgemaakte fouten</span>
+              <span>Praktijkchecklist afronden</span>
+            </div>
+          </div>
+
+          <div class="platform-screen" data-panel="admin">
+            <div class="screen-top">
+              <span>Teamdashboard</span>
+              <strong>Wie is klaar voor de praktijk?</strong>
+            </div>
+            <div class="progress-rows">
+              <div><span>Noor</span><progress max="100" value="92"></progress><strong>92%</strong></div>
+              <div><span>Bilal</span><progress max="100" value="76"></progress><strong>76%</strong></div>
+              <div><span>Lena</span><progress max="100" value="61"></progress><strong>61%</strong></div>
+              <div><span>Sam</span><progress max="100" value="48"></progress><strong>48%</strong></div>
+            </div>
+            <p class="screen-note">Teamleads zien waar iemand vastzit en sturen gericht bij.</p>
+          </div>
+
+          <div class="platform-screen" data-panel="mentor">
+            <div class="screen-top">
+              <span>AI-mentor</span>
+              <strong>Antwoord op basis van jullie standaarden</strong>
+            </div>
+            <div class="chat">
+              <p class="question">Wat doe ik als de klant een allergie meldt tijdens de lunchshift?</p>
+              <p class="answer">
+                Volg eerst de allergiechecklist. Herhaal de allergie hardop, verwittig de shiftlead
+                en gebruik alleen de goedgekeurde productinformatie uit module 04.
+              </p>
+            </div>
+            <p class="screen-note">Geen losse chatbot, maar begeleiding op basis van goedgekeurde kennis.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="proces" class="section process-section" aria-labelledby="process-title">
+        <div class="section-copy reveal">
+          <div class="section-kicker">Aanpak</div>
+          <h2 id="process-title">Jullie hoeven geen cursus te hebben. Jullie moeten alleen de kennis hebben.</h2>
+        </div>
+        <div class="process-steps">
+          <article class="process-step reveal">
+            <span>01</span>
+            <h3>We halen jullie kennis uit de praktijk</h3>
+            <p>
+              We brengen in kaart wat nieuwe medewerkers moeten kennen en filmen de juiste mensen
+              in de studio of op locatie.
+            </p>
+          </article>
+          <article class="process-step reveal">
+            <span>02</span>
+            <h3>We bouwen de academy en AI-mentor</h3>
+            <p>
+              Video wordt een leertraject met modules, lessen, examens, checklists en begeleiding
+              op basis van jullie eigen kennis.
+            </p>
+          </article>
+          <article class="process-step reveal">
+            <span>03</span>
+            <h3>Nieuwe medewerkers gaan live</h3>
+            <p>
+              Managers volgen voortgang op, zien wie klaar is en optimaliseren het traject op basis
+              van eerste gebruikersdata.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="media-band" aria-label="Training in de praktijk">
+        <img
+          src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1800&q=80"
+          alt="Team bekijkt samen trainingsmateriaal aan tafel"
+        />
+        <div class="media-band-copy reveal">
+          <span>Wat verandert er?</span>
+          <p>
+            Belangrijke kennis zit niet langer verspreid over documenten, chats en hoofden. Ze wordt
+            een systeem dat traint, toetst en opvolgt.
+          </p>
+        </div>
+      </section>
+
+      <section class="section benefits-section" aria-labelledby="benefits-title">
+        <div class="section-copy reveal">
+          <div class="section-kicker">Operationele voordelen</div>
+          <h2 id="benefits-title">Elke feature moet een probleem oplossen.</h2>
+        </div>
+        <div class="benefit-list">
+          <article class="benefit reveal">
+            <i data-lucide="video" aria-hidden="true"></i>
+            <h3>Video modules</h3>
+            <p>Iedereen krijgt dezelfde uitleg, ongeacht vestiging, shift of trainer.</p>
+          </article>
+          <article class="benefit reveal">
+            <i data-lucide="clipboard-check" aria-hidden="true"></i>
+            <h3>Examens en checklists</h3>
+            <p>Managers weten wie de kennis beheerst en wie het gedrag in de praktijk toepast.</p>
+          </article>
+          <article class="benefit reveal">
+            <i data-lucide="bot" aria-hidden="true"></i>
+            <h3>AI-mentor</h3>
+            <p>Vragen worden beantwoord zonder dat een manager telkens moet tussenkomen.</p>
+          </article>
+          <article class="benefit reveal">
+            <i data-lucide="bar-chart-3" aria-hidden="true"></i>
+            <h3>Progress dashboard</h3>
+            <p>Teamleads zien wie klaar is, wie vastzit en waar extra begeleiding nodig is.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section usecases-section" aria-labelledby="usecases-title">
+        <div class="section-copy reveal">
+          <div class="section-kicker">Voor wie</div>
+          <h2 id="usecases-title">Gemaakt voor teams waar kennis direct invloed heeft op operatie.</h2>
+        </div>
+        <div class="usecase-columns reveal">
+          <ul>
+            <li>Horeca onboarding: recepten, hygiene, service, kassa en spitsmomenten</li>
+            <li>Retail onboarding: productkennis, winkelstandaarden en klantgesprekken</li>
+            <li>Franchise training: consistente uitvoering over vestigingen heen</li>
+            <li>Compliance training: verplichte kennis met bewijs van voltooiing</li>
+          </ul>
+          <ul>
+            <li>Sales enablement: scripts, productkennis en objection handling</li>
+            <li>Customer education: klanten leren werken met je product of methode</li>
+            <li>Manager academy: teamleads trainen in coaching, feedback en operations</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section proof-section" aria-labelledby="proof-title">
+        <div class="proof-layout">
+          <div class="section-copy reveal">
+            <div class="section-kicker">Bewijsrichting</div>
+            <h2 id="proof-title">De bouwstenen draaien al in bestaande leerplatformen.</h2>
+            <p>
+              Onze aanpak bouwt verder op bestaande leerplatformen zoals Het Trade Platform en
+              CoachedBy Academy, met modules, video delivery, examens, voortgangsmeting,
+              adminbeheer en AI-ondersteuning.
+            </p>
+          </div>
+          <div class="proof-metrics reveal" aria-label="Platformbouwstenen">
+            <div><strong>Video</strong><span>Course delivery</span></div>
+            <div><strong>Examens</strong><span>Kennischeck</span></div>
+            <div><strong>Admin</strong><span>Voortgang en rollen</span></div>
+            <div><strong>AI</strong><span>Goedgekeurde antwoorden</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" aria-labelledby="faq-title">
+        <div class="section-copy reveal">
+          <div class="section-kicker">Bezwaren</div>
+          <h2 id="faq-title">Veelgestelde vragen voordat je start.</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details open>
+            <summary>Moeten wij zelf al een cursus hebben?</summary>
+            <p>Nee. Jullie hebben de kennis al in het bedrijf. Wij structureren, filmen en vertalen ze naar een platform.</p>
+          </details>
+          <details>
+            <summary>Is dit geen gewoon LMS?</summary>
+            <p>Nee. Een LMS is software. Wij leveren strategie, opname, contentstructuur, platform, AI-mentor en launch.</p>
+          </details>
+          <details>
+            <summary>Hoeveel tijd kost dit ons?</summary>
+            <p>We beperken jullie input tot workshops, feedbackmomenten en opnameblokken. De uitvoering ligt bij ons.</p>
+          </details>
+          <details>
+            <summary>Kan dit per rol of vestiging?</summary>
+            <p>Ja. Content kan per functie, locatie, team of access level ingericht worden.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="scan" class="final-cta" aria-labelledby="scan-title">
+        <div class="final-copy reveal">
+          <span>Onboarding scan</span>
+          <h2 id="scan-title">Wil je weten hoeveel onboarding jullie vandaag kost?</h2>
+          <p>
+            We bekijken hoe nieuwe medewerkers vandaag worden ingewerkt, waar kennis verloren gaat
+            en welke academy structuur het meeste impact zou hebben.
+          </p>
+        </div>
+        <form class="scan-form reveal">
+          <label>
+            <span>Naam</span>
+            <input type="text" name="naam" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Bedrijf</span>
+            <input type="text" name="bedrijf" autocomplete="organization" required />
+          </label>
+          <label>
+            <span>E-mail</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>Aantal medewerkers of locaties</span>
+            <input type="text" name="grootte" required />
+          </label>
+          <label class="full">
+            <span>Grootste onboardingprobleem</span>
+            <textarea name="probleem" rows="4" required></textarea>
+          </label>
+          <button class="button primary" type="submit">
+            <span>Vraag een onboarding scan aan</span>
+            <i data-lucide="arrow-right" aria-hidden="true"></i>
+          </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Platform Onderneming</p>
+      <a href="#top">Terug naar boven</a>
+    </footer>
+  </body>
+</html>
