@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Custom Onboarding Academy | Platform Onderneming</title>
+    <title>Crewbase | Operational onboarding academies</title>
     <meta
       name="description"
       content="Maak nieuwe medewerkers sneller zelfstandig met een branded onboarding academy, video, examens, checklists en een AI-mentor op basis van jullie eigen kennis."
@@ -21,38 +21,57 @@
   </head>
   <body>
     <header class="site-header" aria-label="Hoofdnavigatie">
-      <a class="brand" href="#top" aria-label="Platform Onderneming home">
-        <span class="brand-mark">PO</span>
-        <span>Platform Onderneming</span>
+      <a class="brand" href="#top" aria-label="Crewbase home">
+        <span class="brand-mark">CB</span>
+        <span>Crewbase</span>
       </a>
       <nav class="nav-links" aria-label="Pagina">
         <a href="#probleem">Probleem</a>
         <a href="#kosten">Calculator</a>
         <a href="#proces">Proces</a>
-        <a href="#scan">Scan</a>
+        <a href="#prijzen">Investering</a>
+        <a href="intake.html">Intake</a>
       </nav>
-      <a class="header-cta" href="#scan">Vraag scan aan</a>
+      <div class="header-actions">
+        <a class="whatsapp-cta" href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20een%20vraag%20over%20jullie%20onboarding%20academy." aria-label="Contact via WhatsApp">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a class="header-cta" href="intake.html">Start intake</a>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Menu openen" aria-expanded="false" aria-controls="mobile-menu">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
     </header>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobiele navigatie" hidden>
+      <a href="#probleem">Probleem</a>
+      <a href="#kosten">Calculator</a>
+      <a href="#proces">Proces</a>
+      <a href="#prijzen">Investering</a>
+      <a href="intake.html">Start intake</a>
+      <a href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20een%20vraag%20over%20jullie%20onboarding%20academy.">WhatsApp</a>
+    </nav>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content">
           <aside class="hero-pill reveal">
-            <span>Van interne kennis naar zelfstandige medewerkers.</span>
+            <span>Van WhatsApp-uitleg naar een schaalbaar trainingssysteem.</span>
             <a href="#proof-title">
-              <span>Bekijk bewijs</span>
+              <span>Bekijk platformen</span>
               <i data-lucide="arrow-right" aria-hidden="true"></i>
             </a>
           </aside>
-          <p class="eyebrow reveal">Custom Onboarding Academy</p>
+          <p class="eyebrow reveal">Operationele onboarding voor teams die groeien</p>
           <h1 id="hero-title" class="reveal">Maak nieuwe medewerkers sneller zelfstandig.</h1>
           <p class="hero-copy reveal">
-            Wij filmen jullie interne kennis, bouwen er een onboarding academy rond en voegen
-            een AI-mentor toe die medewerkers begeleidt tot ze operationeel klaar zijn.
+            Elke week herhaalt je manager dezelfde uitleg. Elke nieuwe medewerker leert van een
+            andere collega. En elke keer dat iemand vertrekt, gaat de kennis mee. Wij zetten die
+            kennis om in een systeem dat traint, toetst en bijhoudt wie klaar is voor de praktijk.
           </p>
           <div class="hero-actions reveal">
-            <a class="button primary" href="#scan">
-              <span>Vraag een onboarding scan aan</span>
+            <a class="button primary" href="intake.html">
+              <span>Start de intake</span>
               <i data-lucide="arrow-right" aria-hidden="true"></i>
             </a>
             <a class="button ghost" href="#proces">
@@ -61,7 +80,7 @@
             </a>
           </div>
           <p class="trust-line reveal">
-            Gebouwd op ervaring met platformen zoals Het Trade Platform en CoachedBy Academy.
+            Gebouwd op ervaring met leeromgevingen zoals Het Trade Platform en CoachedBy Academy.
           </p>
         </div>
         <div class="hero-screenshots reveal" aria-label="Actuele screenshots van bestaande leerplatformen">
@@ -163,7 +182,10 @@
             </label>
             <div class="calculator-foot">
               <p><strong id="monthly-hours">60</strong> manageruren per maand aan herhaling.</p>
-              <a href="#scan">Bereken wat onboarding jullie vandaag kost</a>
+              <p id="calculator-insight" class="calculator-insight">
+                Jullie geven ongeveer EUR 43.200 per jaar uit aan herhaling die te systematiseren is.
+              </p>
+              <a class="button primary calculator-cta" href="intake.html">Wil je weten hoeveel we hiervan kunnen besparen?</a>
             </div>
           </form>
         </div>
@@ -177,6 +199,10 @@
             We zetten jullie kennis om in een branded academy met video, examens, checklists,
             progress tracking en een AI-mentor. Zo krijgt elke medewerker dezelfde basis en ziet
             management wie klaar is voor de praktijk.
+          </p>
+          <p>
+            Belangrijke kennis zit niet langer verspreid over documenten, chats en hoofden. Ze wordt
+            een systeem dat traint, toetst en opvolgt.
           </p>
         </div>
 
@@ -258,6 +284,7 @@
               We brengen in kaart wat nieuwe medewerkers moeten kennen en filmen de juiste mensen
               in de studio of op locatie.
             </p>
+            <small>Week 1-2</small>
           </article>
           <article class="process-step reveal">
             <span>02</span>
@@ -266,6 +293,7 @@
               Video wordt een leertraject met modules, lessen, examens, checklists en begeleiding
               op basis van jullie eigen kennis.
             </p>
+            <small>Week 3-6</small>
           </article>
           <article class="process-step reveal">
             <span>03</span>
@@ -274,7 +302,41 @@
               Managers volgen voortgang op, zien wie klaar is en optimaliseren het traject op basis
               van eerste gebruikersdata.
             </p>
+            <small>Week 7-8</small>
           </article>
+        </div>
+      </section>
+
+      <section id="prijzen" class="section pricing-section" aria-labelledby="pricing-title">
+        <div class="pricing-layout">
+          <div class="section-copy reveal">
+            <div class="section-kicker">Investering</div>
+            <h2 id="pricing-title">Eerst begrijpen wat jullie nodig hebben. Daarna pas een voorstel.</h2>
+            <p>
+              De implementatie bestaat uit twee lagen: wij bouwen jullie academy met strategie,
+              opname en contentstructuur. Daarna draait ze op het platform met hosting, AI-mentor,
+              voortgang en rapportage. De investering hangt af van jullie aantal rollen, locaties,
+              opnamedagen en gewenste launchtempo.
+            </p>
+            <a class="button primary pricing-cta" href="intake.html">Start intake voor een voorstel op maat</a>
+          </div>
+          <div class="pricing-list reveal" aria-label="Prijsstructuur">
+            <div>
+              <span>Setup</span>
+              <strong>Projectscope op maat</strong>
+              <p>Kennisworkshops, opnameflow, video-opbouw, modules, examens en launch.</p>
+            </div>
+            <div>
+              <span>Platformlicentie</span>
+              <strong>Licentie op basis van gebruik</strong>
+              <p>Academy hosting, rollen, progress dashboard, AI-mentor en support.</p>
+            </div>
+            <div>
+              <span>Optioneel</span>
+              <strong>Extra productiedagen</strong>
+              <p>Nieuwe procedures, extra locaties, nieuwe rollen of periodieke updates.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -286,8 +348,7 @@
         <div class="media-band-copy reveal">
           <span>Wat verandert er?</span>
           <p>
-            Belangrijke kennis zit niet langer verspreid over documenten, chats en hoofden. Ze wordt
-            een systeem dat traint, toetst en opvolgt.
+            Wat gebeurt er als jullie beste medewerker morgen vertrekt?
           </p>
         </div>
       </section>
@@ -295,7 +356,7 @@
       <section class="section benefits-section" aria-labelledby="benefits-title">
         <div class="section-copy reveal">
           <div class="section-kicker">Operationele voordelen</div>
-          <h2 id="benefits-title">Elke feature moet een probleem oplossen.</h2>
+          <h2 id="benefits-title">Zo ziet zelfstandig inzetbaar zijn er in de praktijk uit.</h2>
         </div>
         <div class="benefit-list">
           <article class="benefit reveal">
@@ -326,17 +387,16 @@
           <div class="section-kicker">Voor wie</div>
           <h2 id="usecases-title">Gemaakt voor teams waar kennis direct invloed heeft op operatie.</h2>
         </div>
-        <div class="usecase-columns reveal">
+        <div class="usecase-columns usecase-cases reveal">
           <ul>
-            <li>Horeca onboarding: recepten, hygiene, service, kassa en spitsmomenten</li>
-            <li>Retail onboarding: productkennis, winkelstandaarden en klantgesprekken</li>
-            <li>Franchise training: consistente uitvoering over vestigingen heen</li>
-            <li>Compliance training: verplichte kennis met bewijs van voltooiing</li>
+            <li><strong>Horeca met meerdere vestigingen</strong><span>Nieuwe medewerkers leren recepten, hygiene, service, kassa en lunchshift-routines voor ze volledig meedraaien.</span></li>
+            <li><strong>Retailteams met wisselende bezetting</strong><span>Iedereen krijgt dezelfde productkennis, winkelstandaarden en klantgesprekken, ongeacht wie de eerste shift begeleidt.</span></li>
+            <li><strong>Franchiseketens</strong><span>Vestigingen trainen volgens dezelfde merkstandaard, terwijl managers zien wie klaar is en waar nog coaching nodig is.</span></li>
           </ul>
           <ul>
-            <li>Sales enablement: scripts, productkennis en objection handling</li>
-            <li>Customer education: klanten leren werken met je product of methode</li>
-            <li>Manager academy: teamleads trainen in coaching, feedback en operations</li>
+            <li><strong>Compliance en veiligheid</strong><span>Verplichte kennis wordt toetsbaar en aantoonbaar afgerond, zonder losse documenten of handmatige opvolging.</span></li>
+            <li><strong>Sales enablement</strong><span>Nieuwe verkopers oefenen scripts, productkennis en objection handling voordat ze klantgesprekken voeren.</span></li>
+            <li><strong>Manager academy</strong><span>Teamleads leren coaching, feedback en operationele routines via een traject dat meetbaar blijft.</span></li>
           </ul>
         </div>
       </section>
@@ -344,7 +404,7 @@
       <section class="section proof-section" aria-labelledby="proof-title">
         <div class="proof-layout">
           <div class="section-copy reveal">
-            <div class="section-kicker">Bewijsrichting</div>
+            <div class="section-kicker">Gebouwd op bestaande platformen</div>
             <h2 id="proof-title">De bouwstenen draaien al in bestaande leerplatformen.</h2>
             <p>
               Onze aanpak bouwt verder op bestaande leerplatformen zoals Het Trade Platform en
@@ -383,51 +443,60 @@
             <summary>Kan dit per rol of vestiging?</summary>
             <p>Ja. Content kan per functie, locatie, team of access level ingericht worden.</p>
           </details>
+          <details>
+            <summary>Hoe lang duurt het tot een academy live staat?</summary>
+            <p>Gemiddeld 6 tot 8 weken: kennisextractie, opname, platformbouw, review en launchbegeleiding.</p>
+          </details>
         </div>
       </section>
 
-      <section id="scan" class="final-cta" aria-labelledby="scan-title">
+      <section id="intake" class="final-cta intake-teaser" aria-labelledby="intake-title">
         <div class="final-copy reveal">
-          <span>Onboarding scan</span>
-          <h2 id="scan-title">Wil je weten hoeveel onboarding jullie vandaag kost?</h2>
+          <span>Onboarding intake</span>
+          <h2 id="intake-title">Beantwoord enkele vragen. Dan maken we de scan concreet.</h2>
           <p>
-            We bekijken hoe nieuwe medewerkers vandaag worden ingewerkt, waar kennis verloren gaat
-            en welke academy structuur het meeste impact zou hebben.
+            De intake duurt ongeveer 3 minuten. We gebruiken je antwoorden om de juiste academy
+            scope, doorlooptijd en volgende stap voor te bereiden. Daarna plannen we een gesprek
+            van 45 minuten.
           </p>
+          <ul class="intake-promises">
+            <li>Geen standaardpakket of vaste prijslijst.</li>
+            <li>Wel een voorstel op basis van rollen, locaties en kennisdruk.</li>
+            <li>Binnen 1 werkdag reactie met de meest logische vervolgstap.</li>
+          </ul>
         </div>
-        <form class="scan-form reveal">
-          <label>
-            <span>Naam</span>
-            <input type="text" name="naam" autocomplete="name" required />
-          </label>
-          <label>
-            <span>Bedrijf</span>
-            <input type="text" name="bedrijf" autocomplete="organization" required />
-          </label>
-          <label>
-            <span>E-mail</span>
-            <input type="email" name="email" autocomplete="email" required />
-          </label>
-          <label>
-            <span>Aantal medewerkers of locaties</span>
-            <input type="text" name="grootte" required />
-          </label>
-          <label class="full">
-            <span>Grootste onboardingprobleem</span>
-            <textarea name="probleem" rows="4" required></textarea>
-          </label>
-          <button class="button primary" type="submit">
-            <span>Vraag een onboarding scan aan</span>
-            <i data-lucide="arrow-right" aria-hidden="true"></i>
-          </button>
-          <p class="form-status" role="status" aria-live="polite"></p>
-        </form>
+        <div class="intake-teaser-panel reveal">
+          <p class="intake-step-count">Losse intakepagina</p>
+          <h3>Een rustige flow met 1 vraag per pagina.</h3>
+          <p>
+            Geen losse velden onderaan de website. Je gaat naar een aparte intake, vult stap voor
+            stap de belangrijkste context in en ziet continu je voortgang.
+          </p>
+          <div class="intake-teaser-actions">
+            <a class="button primary" href="intake.html">
+              <span>Start de intake</span>
+              <i data-lucide="arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="button ghost whatsapp-button" href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20een%20vraag%20over%20jullie%20onboarding%20academy.">
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              <span>Contact via WhatsApp</span>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Platform Onderneming</p>
-      <a href="#top">Terug naar boven</a>
+      <div>
+        <strong>Crewbase</strong>
+        <p>Operationele kennis omzetten in meetbare onboarding.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:hallo@crewbase.be">hallo@crewbase.be</a>
+        <a href="intake.html">Klaar om te starten?</a>
+        <a href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20een%20vraag%20over%20jullie%20onboarding%20academy.">WhatsApp</a>
+        <a href="#top">Terug naar boven</a>
+      </div>
     </footer>
   </body>
 </html>

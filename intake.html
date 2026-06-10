@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Intake | Crewbase</title>
+    <meta
+      name="description"
+      content="Beantwoord enkele korte vragen zodat Crewbase de juiste academy scope, doorlooptijd en volgende stap kan voorbereiden."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="intake-page-body">
+    <main class="intake-page" id="top">
+      <header class="intake-topbar" aria-label="Intake navigatie">
+        <a class="intake-home-link" href="index.html">
+          <i data-lucide="arrow-left" aria-hidden="true"></i>
+          <span>Terug naar site</span>
+        </a>
+        <div class="intake-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="intake-progress-track">
+            <span class="intake-progress-fill"></span>
+          </div>
+          <span class="intake-progress-label">0%</span>
+        </div>
+        <a class="whatsapp-cta intake-whatsapp" href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20een%20vraag%20over%20jullie%20onboarding%20academy.">
+          <i data-lucide="message-circle" aria-hidden="true"></i>
+          <span>WhatsApp</span>
+        </a>
+      </header>
+
+      <section class="intake-page-shell" aria-labelledby="intake-title">
+        <div class="intake-page-intro">
+          <span>Onboarding intake</span>
+          <h1 id="intake-title">Beantwoord enkele vragen. Dan maken we de scan concreet.</h1>
+          <p>
+            De intake duurt ongeveer 3 minuten. We gebruiken je antwoorden om de juiste academy
+            scope, doorlooptijd en volgende stap voor te bereiden.
+          </p>
+        </div>
+
+        <form class="intake-form intake-page-form" aria-label="Onboarding intake formulier" novalidate>
+          <div class="intake-step active" data-step="1">
+            <button class="intake-back" type="button" disabled>Terug</button>
+            <p class="intake-step-count">Vraag 1 van 8</p>
+            <h3>Wat is je naam?</h3>
+            <label>
+              <span>Volledige naam</span>
+              <input type="text" name="naam" autocomplete="name" placeholder="Je volledige naam" required />
+            </label>
+          </div>
+
+          <div class="intake-step" data-step="2">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 2 van 8</p>
+            <h3>Waar kunnen we je bereiken?</h3>
+            <label>
+              <span>E-mailadres</span>
+              <input type="email" name="email" autocomplete="email" placeholder="jij@bedrijf.be" required />
+            </label>
+          </div>
+
+          <div class="intake-step" data-step="3">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 3 van 8</p>
+            <h3>Voor welk bedrijf bouwen we mee?</h3>
+            <label>
+              <span>Bedrijfsnaam</span>
+              <input type="text" name="bedrijf" autocomplete="organization" placeholder="Naam van je bedrijf" required />
+            </label>
+          </div>
+
+          <div class="intake-step" data-step="4">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 4 van 8</p>
+            <h3>Welke situatie past het best?</h3>
+            <div class="option-grid" data-name="type">
+              <label><input type="radio" name="type" value="horeca" required /><span>Horeca of hospitality</span></label>
+              <label><input type="radio" name="type" value="retail" /><span>Retail of winkelteam</span></label>
+              <label><input type="radio" name="type" value="franchise" /><span>Franchise of meerdere vestigingen</span></label>
+              <label><input type="radio" name="type" value="anders" /><span>Ander operationeel team</span></label>
+            </div>
+          </div>
+
+          <div class="intake-step" data-step="5">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 5 van 8</p>
+            <h3>Hoe groot is de onboardingdruk?</h3>
+            <div class="option-grid" data-name="volume">
+              <label><input type="radio" name="volume" value="1-5" required /><span>1-5 nieuwe mensen per maand</span></label>
+              <label><input type="radio" name="volume" value="6-15" /><span>6-15 nieuwe mensen per maand</span></label>
+              <label><input type="radio" name="volume" value="16+" /><span>Meer dan 15 nieuwe mensen per maand</span></label>
+              <label><input type="radio" name="volume" value="seizoenspieken" /><span>Vooral pieken of seizoensinstroom</span></label>
+            </div>
+          </div>
+
+          <div class="intake-step" data-step="6">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 6 van 8</p>
+            <h3>Wat moet de academy vooral oplossen?</h3>
+            <div class="option-grid" data-name="probleem">
+              <label><input type="radio" name="probleem" value="herhaling" required /><span>Managers herhalen te vaak dezelfde uitleg</span></label>
+              <label><input type="radio" name="probleem" value="inconsistentie" /><span>Training verschilt per locatie of trainer</span></label>
+              <label><input type="radio" name="probleem" value="kwaliteit" /><span>Kwaliteit of merkstandaarden zijn moeilijk te bewaken</span></label>
+              <label><input type="radio" name="probleem" value="zichtbaarheid" /><span>We weten niet goed wie klaar is voor de praktijk</span></label>
+            </div>
+          </div>
+
+          <div class="intake-step" data-step="7">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 7 van 8</p>
+            <h3>Wanneer wil je idealiter live?</h3>
+            <div class="option-grid" data-name="timing">
+              <label><input type="radio" name="timing" value="snel" required /><span>Binnen 6-8 weken</span></label>
+              <label><input type="radio" name="timing" value="kwartaal" /><span>Dit kwartaal</span></label>
+              <label><input type="radio" name="timing" value="verkennen" /><span>We zijn nog aan het verkennen</span></label>
+            </div>
+          </div>
+
+          <div class="intake-step" data-step="8">
+            <button class="intake-back" type="button">Terug</button>
+            <p class="intake-step-count">Vraag 8 van 8</p>
+            <h3>Wat moeten we zeker weten voor de eerste analyse?</h3>
+            <label>
+              <span>Korte context</span>
+              <textarea name="context" rows="4" placeholder="Bijvoorbeeld: aantal locaties, huidige training, grootste bottleneck..." required></textarea>
+            </label>
+          </div>
+
+          <div class="intake-success" hidden>
+            <h3>Dankjewel. We hebben je intake ontvangen.</h3>
+            <p>We lezen je antwoorden door en nemen binnen 1 werkdag contact op met een concrete vervolgstap.</p>
+            <a class="button ghost whatsapp-button" href="https://wa.me/32400000000?text=Hallo%20Crewbase%2C%20ik%20heb%20net%20de%20intake%20ingevuld%20en%20heb%20nog%20een%20vraag.">
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              <span>Stel nog een vraag via WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="intake-actions">
+            <p class="intake-error" role="alert" aria-live="polite"></p>
+            <button class="button primary intake-next" type="button">Volgende</button>
+            <p>Enter om verder te gaan</p>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
