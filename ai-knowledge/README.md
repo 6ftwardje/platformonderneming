@@ -29,6 +29,7 @@
 | [04-positionering-messaging.md](./04-positionering-messaging.md) | Kernzin, ROI-rekensom, bezwaren + weerwoord, proof-point framing |
 | [05-open-vragen-beslissingen.md](./05-open-vragen-beslissingen.md) | Beslissingslog + open strategische vragen + kritische aanvullingen |
 | [06-icp-core-a-dealer-netwerken.md](./06-icp-core-a-dealer-netwerken.md) | ICP + koopsignalen voor het eerste outreach-segment (dealer-/installateursnetwerken) |
+| [07-linkedin-outreach-playbook.md](./07-linkedin-outreach-playbook.md) | LinkedIn-playbook (gratis): Boolean-zoekstrings, signaal-check, DM-sequence, cadans |
 
 ## Kern in 3 zinnen (TL;DR)
 

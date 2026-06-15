@@ -16,6 +16,7 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06 | **Core** = partner/klant-educatie (dealer-/installateursnetwerken); **wedge** = expert-academies via bestaande cases. |
 | 2026-06-15 | Centrale AI-kennisbank opgezet als `ai-knowledge/` in de platformonderneming-repo. |
 | 2026-06-15 | **Core A gekozen als eerste outreach-segment** (dealer-/installateursnetwerken). ICP + koopsignalen vastgelegd in `06-icp-core-a-dealer-netwerken.md`. |
+| 2026-06-15 | **Geen Apollo (credits), geen uit-het-hoofd-lijst.** Gratis LinkedIn wordt de targeting-motor. Playbook in `07-linkedin-outreach-playbook.md`. Uitvoeringsmethode (automatie vs. semi-handmatig) later beslist. |
 
 ---
 
@@ -57,9 +58,12 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 ## Volgende concrete stappen (status)
 - [x] Core A vs B beslissen → **Core A gekozen** (dealer-/installateursnetwerken).
 - [x] ICP + koopsignalen voor Core A vastleggen → `06-icp-core-a-dealer-netwerken.md`.
-- [ ] **Beslissen: lijst opbouwen via Apollo/Clay-enrichment (token-approval) of handmatig een eerste batch.**
-- [ ] DM-sequence schrijven (NL, geen em-dashes, blanco connectie → DM na acceptatie, Unipile-flow).
-- [ ] Outreach draaien via het bestaande n8n Unipile-systeem (10/dag, response-rate meten; benchmark >15%) + signaalscore als prioritering.
+- [x] Targeting-aanpak gekozen → **gratis LinkedIn** (geen Apollo). Playbook in `07`.
+- [x] DM-sequence geschreven (NL, geen em-dashes, blanco connectie → DM1/2/3) → in `07` §6.
+- [ ] **Eerste researchblok:** 1-2 subsectoren (subsidiegedreven = warmste start) → ±20-30 bedrijven met signaalscore verzamelen.
+- [ ] Uitvoeringsmethode beslissen: bestaande Unipile/n8n-automatie vs. semi-handmatig warmen.
+- [ ] Tracking-tool kiezen (sheet/CRM-kolommen staan in `07` §9).
+- [ ] Outreach starten op hoogst gescoorde prospects; reply-rate meten (benchmark >15%).
 
 > Open: blijft de **wedge** (expert-academies) een parallelle tweede campagne, of pas later? En de
 > **core B** (B2B SaaS product adoption) blijft als alternatief/uitbreiding op tafel.
