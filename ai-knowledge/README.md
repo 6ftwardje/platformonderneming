@@ -30,6 +30,8 @@
 | [05-open-vragen-beslissingen.md](./05-open-vragen-beslissingen.md) | Beslissingslog + open strategische vragen + kritische aanvullingen |
 | [06-icp-core-a-dealer-netwerken.md](./06-icp-core-a-dealer-netwerken.md) | ICP + koopsignalen voor het eerste outreach-segment (dealer-/installateursnetwerken) |
 | [07-linkedin-outreach-playbook.md](./07-linkedin-outreach-playbook.md) | LinkedIn-playbook (gratis): Boolean-zoekstrings, signaal-check, DM-sequence, cadans |
+| [08-eerste-sessie-protocol.md](./08-eerste-sessie-protocol.md) | Getimed 60-90 min start-protocol voor de eerste prospectie-sessie |
+| [prospects-core-a.csv](./prospects-core-a.csv) | Prospect-tracker (in te vullen tijdens het zoeken) |
 
 ## Kern in 3 zinnen (TL;DR)
 

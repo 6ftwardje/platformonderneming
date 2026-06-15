@@ -17,6 +17,7 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06-15 | Centrale AI-kennisbank opgezet als `ai-knowledge/` in de platformonderneming-repo. |
 | 2026-06-15 | **Core A gekozen als eerste outreach-segment** (dealer-/installateursnetwerken). ICP + koopsignalen vastgelegd in `06-icp-core-a-dealer-netwerken.md`. |
 | 2026-06-15 | **Geen Apollo (credits), geen uit-het-hoofd-lijst.** Gratis LinkedIn wordt de targeting-motor. Playbook in `07-linkedin-outreach-playbook.md`. Uitvoeringsmethode (automatie vs. semi-handmatig) later beslist. |
+| 2026-06-15 | **Eerste-sessie-kit klaar** (`08-eerste-sessie-protocol.md` + `prospects-core-a.csv`). Start-subsector = warmtepompen/zon/laadpalen. Volgende stap = sessie draaien + terugkoppelen. |
 
 ---
 
@@ -60,7 +61,7 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 - [x] ICP + koopsignalen voor Core A vastleggen → `06-icp-core-a-dealer-netwerken.md`.
 - [x] Targeting-aanpak gekozen → **gratis LinkedIn** (geen Apollo). Playbook in `07`.
 - [x] DM-sequence geschreven (NL, geen em-dashes, blanco connectie → DM1/2/3) → in `07` §6.
-- [ ] **Eerste researchblok:** 1-2 subsectoren (subsidiegedreven = warmste start) → ±20-30 bedrijven met signaalscore verzamelen.
+- [ ] **Eerste researchblok DRAAIEN:** volg `08-eerste-sessie-protocol.md` → ±20-30 bedrijven + 15+ connecties. (Kit staat klaar; jij voert uit op LinkedIn.)
 - [ ] Uitvoeringsmethode beslissen: bestaande Unipile/n8n-automatie vs. semi-handmatig warmen.
 - [ ] Tracking-tool kiezen (sheet/CRM-kolommen staan in `07` §9).
 - [ ] Outreach starten op hoogst gescoorde prospects; reply-rate meten (benchmark >15%).
