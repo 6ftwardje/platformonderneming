@@ -15,6 +15,7 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06 | **Strategische shift:** weg van interne employee onboarding, richting **externe educatie** (council ronde 2). |
 | 2026-06 | **Core** = partner/klant-educatie (dealer-/installateursnetwerken); **wedge** = expert-academies via bestaande cases. |
 | 2026-06-15 | Centrale AI-kennisbank opgezet als `ai-knowledge/` in de platformonderneming-repo. |
+| 2026-06-15 | **Core A gekozen als eerste outreach-segment** (dealer-/installateursnetwerken). ICP + koopsignalen vastgelegd in `06-icp-core-a-dealer-netwerken.md`. |
 
 ---
 
@@ -54,7 +55,11 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 ---
 
 ## Volgende concrete stappen (status)
-- [ ] Core A vs B beslissen.
-- [ ] Verse kandidaat-lijst opbouwen voor de **wedge** (expert-academies: Vlaamse consultants/high-ticket coaches met tractie maar zwak platform).
+- [x] Core A vs B beslissen → **Core A gekozen** (dealer-/installateursnetwerken).
+- [x] ICP + koopsignalen voor Core A vastleggen → `06-icp-core-a-dealer-netwerken.md`.
+- [ ] **Beslissen: lijst opbouwen via Apollo/Clay-enrichment (token-approval) of handmatig een eerste batch.**
 - [ ] DM-sequence schrijven (NL, geen em-dashes, blanco connectie → DM na acceptatie, Unipile-flow).
-- [ ] Outreach draaien via het bestaande n8n Unipile-systeem (10/dag, response-rate meten; benchmark >15%).
+- [ ] Outreach draaien via het bestaande n8n Unipile-systeem (10/dag, response-rate meten; benchmark >15%) + signaalscore als prioritering.
+
+> Open: blijft de **wedge** (expert-academies) een parallelle tweede campagne, of pas later? En de
+> **core B** (B2B SaaS product adoption) blijft als alternatief/uitbreiding op tafel.

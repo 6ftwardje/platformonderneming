@@ -28,6 +28,7 @@
 | [03-council-usecase-verdict.md](./03-council-usecase-verdict.md) | LLM Council ronde 2 — beste use case (ranking + core/wedge) |
 | [04-positionering-messaging.md](./04-positionering-messaging.md) | Kernzin, ROI-rekensom, bezwaren + weerwoord, proof-point framing |
 | [05-open-vragen-beslissingen.md](./05-open-vragen-beslissingen.md) | Beslissingslog + open strategische vragen + kritische aanvullingen |
+| [06-icp-core-a-dealer-netwerken.md](./06-icp-core-a-dealer-netwerken.md) | ICP + koopsignalen voor het eerste outreach-segment (dealer-/installateursnetwerken) |
 
 ## Kern in 3 zinnen (TL;DR)
 
