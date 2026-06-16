@@ -24,6 +24,7 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06-16 | **Katelijnepoort-gebouw onderzocht (data.be/staatsbladmonitor).** Conclusie: dun qua ICP-fit — gebouw huisvest o.a. Brugge.Inc-incubator (±25 startups = anti-ICP). Enige zuivere fit = **NIPRO** (dialyse-software, customer education). Bewaard als losse warme prospect; gebouw losgelaten als hoofdpiste. |
 | 2026-06-16 | **Bredere Core A Apollo-pull (1 credit, fabrikant-filter NAICS 31-33).** Schoner dan keyword-zoek, maar nog FMCG/voeding/pharma + federaties ertussen → handmatig gecureerd. **18 dealer-netwerk-fabrikanten** in de tracker (zonwering, ramen, vloeren, verf, fietsen, isolatie, toegang, HVAC). Harol = directe Winsol-parallel. |
 | 2026-06-16 | **Apollo pagina 2 (1 credit)** verwerkt → **21 extra fabrikant-fits** toegevoegd (deuren, terrastegels, dak, tegels, interieur, tuinmachines, outdoor furniture, mobiliteitshulpmiddelen, sportvloeren...). Tracker nu ~41 bedrijven. Pagina's 3-6 nog beschikbaar (575 totaal). |
+| 2026-06-16 | **GTM-beslissing: eerste golf = buitenschil/outdoor-cluster** (Harol, Profel, ARLU, Theuma, Aliplast, Extremis, DUCO). Reden: Winsol-referentie + scherpe message-market-fit. Kant-en-klare DM's + cadans in `09-gtm-eerste-golf.md`. Stoppen met verzamelen; nu versturen. Geen Apollo contact-credits (beslisser via gratis LinkedIn People-tab). |
 
 ---
 

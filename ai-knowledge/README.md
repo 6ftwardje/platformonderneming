@@ -31,7 +31,8 @@
 | [06-icp-core-a-dealer-netwerken.md](./06-icp-core-a-dealer-netwerken.md) | ICP + koopsignalen voor het eerste outreach-segment (dealer-/installateursnetwerken) |
 | [07-linkedin-outreach-playbook.md](./07-linkedin-outreach-playbook.md) | LinkedIn-playbook (gratis): Boolean-zoekstrings, signaal-check, DM-sequence, cadans |
 | [08-eerste-sessie-protocol.md](./08-eerste-sessie-protocol.md) | Getimed 60-90 min start-protocol voor de eerste prospectie-sessie |
-| [prospects-core-a.csv](./prospects-core-a.csv) | Prospect-tracker (in te vullen tijdens het zoeken) |
+| [09-gtm-eerste-golf.md](./09-gtm-eerste-golf.md) | GTM eerste golf: buitenschil/outdoor-cluster, 7 bedrijven met kant-en-klare DM's + cadans |
+| [prospects-core-a.csv](./prospects-core-a.csv) | Prospect-tracker (~41 bedrijven; golf 1 gemarkeerd) |
 
 ## Kern in 3 zinnen (TL;DR)
 
