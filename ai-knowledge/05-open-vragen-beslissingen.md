@@ -21,6 +21,8 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06-16 | **Apollo-bedrijfslijst getrokken** via MCP (1 credit; bedrijfs-zoek is credit-betaald via API, contact-export apart). HVAC/hernieuwbare-keyword-zoek = veel ruis (brancheverenigingen + installateurs/ontwikkelaars zelf). 10 echte fabrikant-treffers in de tracker (7 sterk, 3 te verifieren). **Leerpunt:** volgende Apollo-pull filteren op fabrikanten (NAICS/SIC manufacturing) en verenigingen/ontwikkelaars uitsluiten. |
 | 2026-06-16 | **ICP Core A verbreed — netwerk centraal, sector-agnostisch.** HVAC was te smal; must-have = extern dealer-/verdeler-/installateurs-/verwerkersnetwerk. Sector-clusters toegevoegd (buitenleven/schil, klimaat/energie, wonen/interieur, toegang/comfort, technisch/industrieel) in `06`. |
 | 2026-06-16 | **Strategisch inzicht: bestaande AI-klanten = warm platform-upsell-kanaal.** Warme accounts gaan vóór koude prospectie. **Winsol** = eerste warm anchor (groot verdeler-/plaatsersnetwerk; AI-implementatie loopt al; platform = mogelijke latere verkoop). Vastgelegd in `06` §0. |
+| 2026-06-16 | **Katelijnepoort-gebouw onderzocht (data.be/staatsbladmonitor).** Conclusie: dun qua ICP-fit — gebouw huisvest o.a. Brugge.Inc-incubator (±25 startups = anti-ICP). Enige zuivere fit = **NIPRO** (dialyse-software, customer education). Bewaard als losse warme prospect; gebouw losgelaten als hoofdpiste. |
+| 2026-06-16 | **Bredere Core A Apollo-pull (1 credit, fabrikant-filter NAICS 31-33).** Schoner dan keyword-zoek, maar nog FMCG/voeding/pharma + federaties ertussen → handmatig gecureerd. **18 dealer-netwerk-fabrikanten** in de tracker (zonwering, ramen, vloeren, verf, fietsen, isolatie, toegang, HVAC). Harol = directe Winsol-parallel. |
 
 ---
 
