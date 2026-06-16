@@ -19,6 +19,8 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 | 2026-06-15 | **Geen Apollo (credits), geen uit-het-hoofd-lijst.** Gratis LinkedIn wordt de targeting-motor. Playbook in `07-linkedin-outreach-playbook.md`. Uitvoeringsmethode (automatie vs. semi-handmatig) later beslist. |
 | 2026-06-15 | **Eerste-sessie-kit klaar** (`08-eerste-sessie-protocol.md` + `prospects-core-a.csv`). Start-subsector = warmtepompen/zon/laadpalen. Volgende stap = sessie draaien + terugkoppelen. |
 | 2026-06-16 | **Apollo-bedrijfslijst getrokken** via MCP (1 credit; bedrijfs-zoek is credit-betaald via API, contact-export apart). HVAC/hernieuwbare-keyword-zoek = veel ruis (brancheverenigingen + installateurs/ontwikkelaars zelf). 10 echte fabrikant-treffers in de tracker (7 sterk, 3 te verifieren). **Leerpunt:** volgende Apollo-pull filteren op fabrikanten (NAICS/SIC manufacturing) en verenigingen/ontwikkelaars uitsluiten. |
+| 2026-06-16 | **ICP Core A verbreed — netwerk centraal, sector-agnostisch.** HVAC was te smal; must-have = extern dealer-/verdeler-/installateurs-/verwerkersnetwerk. Sector-clusters toegevoegd (buitenleven/schil, klimaat/energie, wonen/interieur, toegang/comfort, technisch/industrieel) in `06`. |
+| 2026-06-16 | **Strategisch inzicht: bestaande AI-klanten = warm platform-upsell-kanaal.** Warme accounts gaan vóór koude prospectie. **Winsol** = eerste warm anchor (groot verdeler-/plaatsersnetwerk; AI-implementatie loopt al; platform = mogelijke latere verkoop). Vastgelegd in `06` §0. |
 
 ---
 
@@ -63,8 +65,9 @@ Werk dit bestand bij bij elke strategische beslissing of nieuwe open vraag.
 - [x] Targeting-aanpak gekozen → **gratis LinkedIn** (geen Apollo). Playbook in `07`.
 - [x] DM-sequence geschreven (NL, geen em-dashes, blanco connectie → DM1/2/3) → in `07` §6.
 - [~] **Bedrijvenlijst gestart via Apollo** → 10 fabrikant-treffers in `prospects-core-a.csv` (7 sterk, 3 te verifieren).
+- [ ] **Warme accounts inventariseren** (bestaande AI-klanten, te beginnen met Winsol) → prioritaire ingang.
 - [ ] **LinkedIn-stap op de 10 treffers:** kanaalmodel bevestigen + signalen scoren + beslisser vinden (volg `08` Blok 2-3). Begin bij de 7 sterke.
-- [ ] Optioneel: verfijnde Apollo-pull op fabrikanten (1 credit) om de lijst uit te breiden voorbij deze 10.
+- [ ] Optioneel: bredere Apollo-pull op het volledige dealer-netwerk-universum (buitenleven, wonen, toegang...) + filter op fabrikanten (1 credit).
 - [ ] Uitvoeringsmethode beslissen: bestaande Unipile/n8n-automatie vs. semi-handmatig warmen.
 - [ ] Tracking-tool kiezen (sheet/CRM-kolommen staan in `07` §9).
 - [ ] Outreach starten op hoogst gescoorde prospects; reply-rate meten (benchmark >15%).

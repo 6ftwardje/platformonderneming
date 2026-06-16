@@ -1,11 +1,26 @@
 # ICP — Core A: Dealer-/installateursnetwerken
 
-> **AI-kennisbank platformonderneming** · Bron: outreach-strategie (Core A) · Laatst bijgewerkt: 2026-06-15 · Status: actueel — leidend voor outreach
+> **AI-kennisbank platformonderneming** · Bron: outreach-strategie (Core A) · Laatst bijgewerkt: 2026-06-16 · Status: actueel — leidend voor outreach
 
 Dit is het scherpe, operationele ICP voor het **eerste outreach-segment**: Vlaamse/Belgische
-bedrijven die hun producten via een **extern dealer-/installateursnetwerk** verkopen en dat
-netwerk moeten opleiden + certificeren. Voorlopig "op papier" — nog geen enrichment. Sectie 5
-maakt het meteen vertaalbaar naar Apollo/Clay-filters zodra we de lijst gaan bouwen.
+bedrijven die hun producten via een **extern netwerk van dealers/verdelers/erkende installateurs/
+verwerkers** verkopen en dat netwerk moeten opleiden + certificeren. **Het netwerk is het
+verbindende kenmerk — de sector is secundair en breed.** Sectie 5 maakt het meteen vertaalbaar
+naar Apollo/Clay-filters zodra we de lijst gaan bouwen.
+
+---
+
+## 0. Warme accounts gaan vóór koude prospectie
+
+Bedrijven waar we al een relatie of een **lopend AI-traject** hebben, zijn de warmste denkbare
+instap voor een platform-verkoop — behandel ze als een prioritaire eigen ingang, vóór de koude
+LinkedIn-prospectie.
+
+- **Winsol** — eerste warm anchor. Groot verdeler-/plaatsersnetwerk (zonwering / outdoor living /
+  ramen-terrasoverkappingen) en we doen er al de AI-implementatie. Het leerplatform is daar een
+  logische latere uitbreiding.
+- **Algemeen principe:** elke bestaande AI-klant is een potentieel platform-upsell-kanaal. Inventariseer
+  die accounts eerst.
 
 ---
 
@@ -13,12 +28,21 @@ maakt het meteen vertaalbaar naar Apollo/Clay-filters zodra we de lijst gaan bou
 
 | Criterium | Profiel |
 |---|---|
-| **Kernkenmerk (must-have)** | Verkoopt via **dealers / verdelers / erkende installateurs / resellers / integratoren** — niet (alleen) direct aan eindklant |
-| **Sectoren** | HVAC/klimaat/sanitair · hernieuwbare energie (warmtepompen, zonnepanelen, laadpalen, batterijen) · domotica & elektro-installatiemateriaal · bouwtech/gevel/schrijnwerk/zonwering · machinebouw & technische installatie · bouwchemie |
+| **Kernkenmerk (must-have)** | Verkoopt via een **extern netwerk van dealers / verdelers / erkende installateurs / verwerkers / resellers** — niet (alleen) direct aan de eindklant. Dit netwerk is het verbindende kenmerk. |
+| **Sectoren (sector-agnostisch)** | Zie de clustertabel hieronder. HVAC was de eerste zoekopdracht maar is **slechts één segment** — het ICP geldt voor elk bouw-, woon- of technisch product zolang het kanaalmodel klopt. |
 | **Grootte** | ±50–500 FTE (genoeg budget + serieus netwerk, management nog bereikbaar) |
 | **Netwerk-omvang** | Tientallen tot duizenden installateurs/dealers. Hoe groter, hoe hoger de ROI |
 | **Productcomplexiteit** | Vereist installatie/configuratie/onderhoud, met technische docs, normen en veiligheidsvereisten → hier levert de AI-RAG-mentor echte waarde |
 | **Geografie** | HQ in Vlaanderen/België; internationaal netwerk is een plus (lokalisatie-pijn = extra koopmotief) |
+
+### Sector-clusters (breed, mits kanaalmodel)
+| Cluster | Voorbeelden |
+|---|---|
+| Buitenleven & schil | zonwering, terrasoverkappingen, outdoor living (**Winsol-type**), ramen/deuren, gevel/schrijnwerk |
+| Klimaat & energie | HVAC, ventilatie, warmtepompen, zonnepanelen, laadpalen *(de oude focus — één segment)* |
+| Wonen & interieur | keukens & badkamers, vloeren/tegels, sanitair |
+| Toegang & comfort | garagepoorten/toegang, zwembaden/wellness, domotica/elektro-installatie |
+| Technisch/industrieel | machinebouw, technische installatie, bouwchemie |
 
 **Waarom dit segment (kort):** het netwerk is extern, dus opleiding/certificering raakt direct
 omzet (betere dealers verkopen meer), kosten (minder support + minder garantieclaims) én binding
