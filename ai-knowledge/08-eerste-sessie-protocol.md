@@ -35,12 +35,17 @@ Voor beslissers (filter op **Personen** + locatie België, of via de People-tab 
 ---
 
 ## Blok 1 — Zoeken & scoren (30 min)
-Voor elk bedrijf dat bovendrijft, doe de **60-sec signaal-check** (zie `07` §4) en log in de tracker:
-- **Kanaalmodel bevestigd?** (verkoopt via installateurs/dealers) → zo niet: overslaan.
-- Tel de 🟢-signalen → **signaalscore** (vacature, productlancering, certificering, academy-pagina, subsidiesector...).
-- Noteer minstens: Bedrijf · Subsector · Kanaalmodel (J/N) · Signaalscore · Welke signalen · LinkedIn bedrijf.
+**Startpunt:** `prospects-core-a.csv` is al voorgevuld met 10 fabrikant-treffers uit Apollo
+(7 sterk, 3 te verifieren). Begin daarmee; vul aan via de LinkedIn Boolean-zoek (`07` §3) als je
+meer wil.
 
-🎯 Doel: **±20-30 bedrijven** in de tracker.
+Voor elk bedrijf, doe de **60-sec signaal-check** (zie `07` §4) en vul de tracker aan:
+- **Kanaalmodel bevestigd?** (verkoopt via installateurs/dealers) → zo niet: overslaan. (Let op: de
+  Apollo-keyword-zoek bevatte ook installateurs/ontwikkelaars en verenigingen — die filter je hier weg.)
+- Tel de 🟢-signalen → **signaalscore** (vacature, productlancering, certificering, academy-pagina, subsidiesector...).
+- Noteer minstens: Kanaalmodel (J/N) · Signaalscore · Welke signalen.
+
+🎯 Doel: **±20-30 bedrijven** met score in de tracker.
 
 ## Blok 2 — Beslissers (20 min)
 Voor de bedrijven met **signaalscore ≥ 2** (begin bij de hoogste):
